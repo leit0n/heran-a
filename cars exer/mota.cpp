@@ -5,7 +5,7 @@ using namespace std;
 // Construtor da classe Mota
 Mota::Mota(const string& nomeMota, const string& guidao) : Veiculo(nomeMota), tipoDeGuidao(guidao) {}
 
-// Sobrescreve o método mostrarDetalhes para incluir detalhes específicos da mota
+// Subrescreve o método mostrarDetalhes para incluir detalhes específicos da mota
 void Mota::mostrarDetalhes() const {
     cout << "Mota: " << nome << endl;
     cout << "Tipo de guiador: " << tipoDeGuidao << endl;
